@@ -12,7 +12,7 @@ st.header("Learning the Word")
 instructions = st.text_area(
     "Ask me a theological question? "
 )
-if (instructions) < 1000:
+if len(instructions) < 1000:
     if st.button("Show Options"):
         response = openai.ChatCompletion.create(
             model="gpt-3.5-turbo",
