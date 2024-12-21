@@ -2,7 +2,7 @@ import streamlit as st
 import openai
 
 # Auth
-openai.api_key = st.secrets['api-key']
+openai.api_key = st.secrets['api_key']
 
 # Title 
 st.title('Bible Scholar')
