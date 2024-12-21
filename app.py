@@ -24,7 +24,8 @@ if len(instructions) < 1000:
             max_tokens=1000,
          )
 
-        output = response.choices[0].message.content 
+        output = response.choices[0].text
+        st.info(output) 
         # Access the message content correctly
 
 else:
