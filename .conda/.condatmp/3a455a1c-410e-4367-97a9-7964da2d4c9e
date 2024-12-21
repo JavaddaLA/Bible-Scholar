@@ -1,0 +1,13 @@
+prefix=/Users/jeremy/Desktop/Github Projects/Bible-Scholar/.conda
+exec_prefix=/Users/jeremy/Desktop/Github Projects/Bible-Scholar/.conda
+libdir=/Users/jeremy/Desktop/Github Projects/Bible-Scholar/.conda/lib
+sharedlibdir=/Users/jeremy/Desktop/Github Projects/Bible-Scholar/.conda/lib
+includedir=/Users/jeremy/Desktop/Github Projects/Bible-Scholar/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
